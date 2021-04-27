@@ -6,7 +6,7 @@ let navUl=document.getElementById('navbar-nav-ul');
 navToogler.addEventListener('click',function()
 {
     homeContent.classList.remove('d-flex')
-    homeContent.classList.add('d-none')
+    
     navUl.classList.add('bg-secondary')
     
 })
@@ -15,9 +15,12 @@ $(window).resize(function() {
     if(window.matchMedia("(min-width: 991px)").matches)
     {
         navUl.classList.remove('bg-secondary')
+        homeContent.classList.add('d-flex')
     }
     if(window.matchMedia("(max-width: 991px)").matches)
     {
+        
+        
         navUl.classList.add('bg-secondary')
         navUl.classList.add('text-center')
     }

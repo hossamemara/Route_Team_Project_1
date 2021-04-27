@@ -167,7 +167,127 @@ html
         font-size: 20px;
     
     }
+    .home .home-content .content p::after
+{
+content: "";
+animation-name: letters-animation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+color: #09c;
+}
+
+@keyframes letters-animation{
+    3% {  
+        content: "D |";
+    }
+    6% {  
+        content: "De |";
+    }
+    9% {  
+        content: "Dev |";
+    }
+    12% {  
+        content: "Deve|";
+    }
+    15% {  
+        content: "Devel |";
+    }
+
+    18% {  
+        content: "Develo |";
+    }
+
+    21% {  
+        content: "Develop |";
+    }
+    24% {  
+        content: "Develope|";
+    }
+    27% {  
+        content: "Developer |";
+    }
+    30% {  
+        content: "Develope |";
+    }
+    33% {  
+        content: "Develop |";
+    }
+    36% {  
+        content: "Develo |";
+    }
+    39% {  
+        content: "Devel |";
+    }
+    42% {  
+        content: "Deve |";
+    }
+
+    45% {  
+        content: "Dev |";
+    }
+
+    48% {  
+        content: "De |";
+    }
+    51% {  
+        content: "D |";
+    }
+    54% {  
+        content: " |";
+    }
+    57% {  
+        content: "D |";
+    }
+    60% {  
+        content: "De |";
+    }
+    63% {  
+        content: "Des |";
+    }
+    66% {  
+        content: "Desi |";
+    }
+    69% {  
+        content: "Desig |";
+    }
+    71% {  
+        content: "Design |";
+    }
+    74% {  
+        content: "Designe |";
+    }
+    77% {  
+        content: "Designer |";
+    }
+    80% {  
+        content: "Designe |";
+    }
+    83% {  
+        content: "Design |";
+    }
+    86% {  
+        content: "Desig |";
+    }
+    89% {  
+        content: "Desi |";
+    }
+    91% {  
+        content: "Des |";
+    }
+    93% {  
+        content: "De |";
+    }
+    96% {  
+        content: "D |";
+    }
+    99% {  
+        content: "";
+    }
+
+
     
+}
+
 
     
     /* Home  End*/
