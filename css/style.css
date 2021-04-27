@@ -84,3 +84,90 @@
 
 /* _________ Width Clases End Here _________ */
 
+/* General Selectors  Start*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Source Sans Pro', sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* General Selectors  End */
+
+
+
+/* Home  Start*/
+
+.home{
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 1);
+
+    }
+    
+    .cover{
+        z-index: -1;
+        position: absolute;
+        opacity: 0.2;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: url(../Images/slider-01.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-position: center center;
+    }
+    
+    .navbar>a
+    {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .navbar-nav .nav-item .nav-link
+    {
+    
+        color: white;
+    }
+    .navbar-nav .nav-item .nav-link:hover
+    {
+    
+        color: #d83319;
+        transition: 0.5s all ease-in-out;
+    }
+    
+    .navbar-toggler-icon{
+        height: 20px;
+        width: 20px;
+    
+    }
+    
+    .home-content
+    {
+        height: 80vh;
+    }
+    
+    .home-content .content h1
+    {
+        color: #ff305b;
+        font-size: 55px;
+        font-weight: bold;
+        text-transform: uppercase;
+    
+    }
+  
+    .home-content .content p
+    {
+        font-size: 20px;
+    
+    }
+    
+
+    
+    /* Home  End*/
