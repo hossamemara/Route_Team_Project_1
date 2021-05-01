@@ -1,5 +1,18 @@
 /* ___________________  General Properties Start  _____________________*/
-
+.main-color{
+    color:#ff305b;
+}
+hr {
+    text-align: center;
+    background-color: #ff305b;
+    margin:3px auto;
+}
+.small-hr {
+    width: 50px;
+}
+.large-hr {
+    width: 100px;
+}
 /* _________ Width Clases Start Here _________  */
 
 .w-5 {
@@ -291,3 +304,25 @@ color: #09c;
 
     
     /* Home  End*/
+
+/*_____________________sec-8____________________________*/
+.sec-8 button:hover{
+    background:red;
+}
+.sec-8 button{
+    background-color:#ff305b;
+    
+   .sec8 button:hover{
+    background:red;
+
+}
+.sec-8 .name ,.sec-8 .email{
+    width:48%;
+}
+.sec-8 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    color:#333;
+}
