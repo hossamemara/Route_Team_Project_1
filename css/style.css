@@ -305,19 +305,20 @@ color: #09c;
     
     /* Home  End*/
 
-/*_____________________sec-8____________________________*/
+/*_____________________ Contacts Start ____________________________*/
 .sec-8 button:hover{
     background:red;
 }
 .sec-8 button{
     background-color:#ff305b;
-    
+}
    .sec8 button:hover{
-    background:red;
+    background-color:red;
 
 }
 .sec-8 .name ,.sec-8 .email{
     width:48%;
+
 }
 .sec-8 h2 {
     font-size: 40px;
@@ -325,7 +326,12 @@ color: #09c;
     line-height: 30px;
     color:#333;
 }
-    /* services section*/
+
+
+/*_____________________ Contacts End ____________________________*/
+
+
+/*______________________ services section Start______________________*/
     .our-services{
     background-color: #f1f1f1;
     position: relative;
@@ -384,3 +390,6 @@ font-weight: 400;
     border-radius: 2px;
     
 }
+
+
+/*______________________ services section End______________________*/
