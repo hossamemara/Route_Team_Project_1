@@ -305,6 +305,70 @@ color: #09c;
     
     /* Home  End*/
 
+
+    /* About US */
+
+
+
+.bord{
+    border: 10px #555555 solid;
+
+    border-radius: 8px;
+
+}
+
+.profile-img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+
+
+
+}
+.profile-img img{
+
+    width: 100%;
+
+
+
+}
+.tran{
+    height: 0px;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.profile-img:hover .tran{
+
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s all ease-in-out;
+
+}
+
+.profile-cv p{
+border-bottom: dashed 2px gray;
+line-height: 35px;
+}
+.info li{
+padding: 5px 0px;
+}
+.info ul{
+    list-style: none;
+    }
+.info span{
+    color: black;
+    }
+
 /*_____________________ Contacts Start ____________________________*/
 .sec-8 button:hover{
     background:red;
@@ -393,3 +457,75 @@ font-weight: 400;
 
 
 /*______________________ services section End______________________*/
+
+
+/* Our Portfolio */
+
+.our-portfolio
+{
+    background-color: #f1f1f1;
+
+}
+.our-portfolio a
+{
+color: black;
+padding: 5px 10px;
+text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.our-portfolio .transtion
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 1s;
+}
+.our-portfolio .transtion:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: 1s;
+}
+
+/* Site Footer */
+
+footer{
+    background-color: #333333;
+    color: whitesmoke;
+
+}
+
+footer a img{
+    opacity: 0.5;
+
+}
+
+footer a:hover img{
+    opacity: 1;
+    background-color: rgb(25, 75, 31);
+
+}
+
+footer p a:hover a{
+    text-decoration: underline;
+}
+
+  
+  .social-media a .fab:hover {
+
+
+    color: #09c !important;
+    transition: 0.5s all ease-in-out;
+  }
