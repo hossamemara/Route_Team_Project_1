@@ -325,3 +325,62 @@ color: #09c;
     line-height: 30px;
     color:#333;
 }
+    /* services section*/
+    .our-services{
+    background-color: #f1f1f1;
+    position: relative;
+}
+.our-services h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #333;
+    padding: 40px;
+    padding-bottom: 10px;
+}
+h2::before{
+    content: "";
+    background-color: #ff305B;
+    width:78px;
+    height: 1.1px;
+    position: absolute;
+    top: 32%;
+    right: 47%;
+}
+h2::after{
+    content: "";
+    background-color: #ff305B;
+    width:200px;
+    height: 1.1px;
+    position: absolute;
+    top: 33.5%;
+    right: 43%;
+}
+.our-services i{
+    color: #ff305B;
+}
+
+
+.our-services h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  padding: 20px 10px 5px;
+}
+.our-services p{
+color: #555;
+font-weight: 400;
+
+}
+
+.ui{
+    transition: all 0.4s ease-in-out;
+    padding: 10px;
+}
+.ui:hover{
+    transform: scale(1.1);
+    background-color: white;
+    
+    box-shadow: 0 0 20px 10px rgb(230, 223, 223);
+    border-radius: 2px;
+    
+}
